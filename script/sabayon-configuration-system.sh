@@ -17,9 +17,6 @@ echo "user_defined" > /usr/local/portage/profiles/repo_name
 # Enforce choosing only python2.7 for now, cleaning others
 eselect python set python2.7
 
-# Specifying a gentoo profile
-eselect profile set default/linux/arm/13.0/desktop
-
 # default to opendns for next stage(s)
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 
